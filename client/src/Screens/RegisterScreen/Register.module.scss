@@ -1,0 +1,24 @@
+#wrapper {
+  height: 100vh;
+  background-color: #fff;
+}
+
+#intro {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+@media only screen and(min-width: 568px) {
+  #wrapper {
+    display: flex;
+    justify-content: center;
+
+    section {
+      width: 30rem;
+      padding: 2rem;
+    }
+  }
+}
